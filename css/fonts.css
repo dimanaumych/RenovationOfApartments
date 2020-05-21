@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Circle-Regular";
+    src: url("../fonts/Circle-Regular/Circe-Regular.eot");
+    src: url("../fonts/Circle-Regular/Circe-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Circle-Regular/Circe-Regular.woff") format("woff"),
+    url("../fonts/Circle-Regular/Circe-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Circle-Light";
+    src: url("../fonts/Circe-Light/Circe-Light.eot");
+    src: url("../fonts/Circe-Light/Circe-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Circe-Light/Circe-Light.woff") format("woff"),
+    url("../fonts/Circe-Light/Circe-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Circle-bold";
+    src: url("../fonts/Circe-Bold/Circe-bold.eot");
+    src: url("../fonts/Circe-Bold/Circe-bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Circe-Bold/CirceBold-Bold.woff") format("woff"),
+    url("../fonts/Circe-Bold/CirceBold-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "EuropeExt-Bold";
+    src: url("../fonts/EuropeExtBold/europeext-bold.eot");
+    src: url("../fonts/EuropeExtBold/europeext-bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/EuropeExtBold/EuropeExtBold.woff") format("woff"),
+    url("../fonts/EuropeExtBold/EuropeExtBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
