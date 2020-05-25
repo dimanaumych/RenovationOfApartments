@@ -308,16 +308,14 @@ header:before {
     height: 338px;
 }
 .container-name{
-    color:#141414;
-    font-family: EuropeExtBold;
-    font-weight: bold;
-    font-size:30px;
-    text-transform: uppercase;
     margin-bottom: 25px;
-    width: 340px;
-    height: 56px;
     line-height: 88%;
     margin-top: 48px;
+    color: black;
+    font-family: EuropeExt-Bold;
+    font-size: 1.7rem;
+    width: 80%;
+    text-transform: uppercase;
 }
 .container-describe{
     width: 395px;
@@ -625,8 +623,8 @@ header:before {
     height: 50px;
     align-items: center;
     cursor: pointer;
-
 }
+
 .remont-types-button-text{
     width: 80%;
     display: flex;
@@ -964,7 +962,234 @@ header:before {
     justify-content: space-between;
 }
 
+.portfolio{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.container-portfolio{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 130px;
+
+}
+
+.portfolio-name{
+    color: black;
+    font-family: EuropeExt-Bold;
+    font-size: 1.7rem;
+    width: 80%;
+    text-transform: uppercase;
+}
+
+.container-content{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    margin-top: 5px;
+    width: 390px;
+    height: 270px;
+    position: relative;
+}
+
+
+
+.info-card {
+    display: none;
+    position: absolute;
+    top: 10px;
+    width: 174px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    background: #303030;
+    text-align: center;
+    height: 53px;
+    z-index: 3;
+    cursor: pointer;
+}
+.project-name{
+    padding-top: 10px;
+    margin: 0px;
+    color: white;
+    font-family:Circle-Regular;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.project-area{
+    padding-top: 3px;
+    margin: 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#FFAC30;
+}
+
+
+.button-info{
+    display: none;
+    color: white;
+    position: absolute;
+    left: 95px;
+    top: 130px;
+    width: 201px;
+    height: 41px;
+    border: 1px solid #FFAC30;
+    opacity: 1;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 3;
+}
+
+
+.card-image{
+    width: 390px;
+    height: 270px;
+}
+
+.dark{
+    display: none;
+    background-color: #191816a3;
+    z-index: 1;
+    width: 390px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+}
+
+.card:hover .dark{
+
+    display: block;
+
+}
+
+.card:hover .info-card{
+
+    display: block;
+
+}
+.card:hover .button-info{
+
+    display: block;
+
+}
 
 
 
 
+.button-info:hover{
+    background: #FFAC30;
+}
+
+.remont-types-button-portfolio{
+    display: flex;
+    width: 270px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+
+
+.remont-types-button-text-portfolio{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffac30;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+    color: white;
+}
+.remont-types-button-portfolio:hover .arrow-button{
+    width: 40%;
+}
+
+.container-steps{
+    width: 100%;
+    background-image: url("../images/bg-шаги.png");
+}
+
+.container-content-steps{
+    width: 1200px;
+    margin: 0px auto;
+    padding-bottom: 100px;
+}
+
+.content-info{
+    font-family: EuropeExt-Bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 106px;
+    padding-bottom: 53px;
+    width: 850px;
+}
+
+.content-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.steps{
+    margin-top: 29px;
+    width: 345px;
+    height: 369px;
+    position: relative;
+    background-color:#2B2B2B;
+    padding-left: 26px;
+}
+
+.steps-icon{
+    padding: 10px;
+    margin-top: 35px;
+    margin-bottom: 53px;
+    width: 71px;
+    height: 71px;
+    box-sizing: border-box;
+    box-shadow:   0 0 10px #FFAC30;
+}
+
+.steps-number{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-family:EuropeExtBold;
+
+}
+
+.steps-name{
+    width: 252px;
+    align:left;
+    color:#FFFFFF;
+    font-family:Circe-Regular;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.steps-info{
+    width: 295px;
+    align:left;
+    color:#FFFFFF;
+    font-family:Circe-Light;
+    font-size: 15px;
+}
+
+.feedback-option{
+    margin-top: 10px;
+    color: #da9633;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
