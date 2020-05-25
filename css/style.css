@@ -1,7 +1,7 @@
 body{
   width: 100%;
   margin: 0;
-    height: 1000px;
+    /*height: 20000px;*/
 }
 
 /*@font-face {*/
@@ -26,6 +26,11 @@ ul
     list-style: none;
     padding: 0;
     margin: 0;
+}
+p{
+    /*padding: 0;*/
+    /*margin: 10px;*/
+
 }
 
 header{
@@ -54,7 +59,7 @@ header:before {
 }
 
 .header-wrapper{
-    width: 1020px;
+    width: 1200px;
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -65,7 +70,7 @@ header:before {
     font-size: .9rem;
     position: relative;
     z-index: 3;
-    font-family: Circle-Regular;
+    font-family: 'Circle-Regular';
 }
 .logo{
     width: 55px;
@@ -100,7 +105,7 @@ header:before {
     color: #f2af29;
 }
 .header-content{
-    width: 1020px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -161,6 +166,9 @@ header:before {
     font-weight: bold;
 }
 .header-button:hover .arrow-button{
+    width: 40%;
+}
+.about-company-text-button:hover .arrow-button{
     width: 40%;
 }
 .header-form-wrapper{
@@ -242,7 +250,7 @@ header:before {
     color: #949494;
 }
 .header-bottom{
-    width: 1020px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -286,8 +294,6 @@ header:before {
     font-family: Circle-Regular;
 }
 
-
-
 .container-advantages{
     width: 1200px;
     margin: 0px auto;
@@ -295,13 +301,12 @@ header:before {
     display: flex;
     position: relative;
     margin-bottom: 170px;
+    font-family: Circle-Regular;
 }
-
 .container-advantages img{
     width: 350px;
     height: 338px;
 }
-
 .container-name{
     color:#141414;
     font-family: EuropeExtBold;
@@ -314,53 +319,652 @@ header:before {
     line-height: 88%;
     margin-top: 48px;
 }
-
 .container-describe{
     width: 395px;
     height: 144px;
     margin-bottom: 107px;
 }
-
 .info-container{
     font-family: Circle-Light;
     font-size: 17px;
     width: 395px;
     height: 63px;
 }
-
 .advantages{
     width: 100%;
     margin: 0px auto;
 }
-
 .info-advantages{
     width: 315px;
     margin-bottom: 57px;
 }
-
 .article-name{
-    font-family:CirceBold-Bold;
+    font-family:"CirceBold-Bold";
     font-size: 17px;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
 }
-
-.article-info{
-
-}
-
 .top-photo{
     margin-left: 27px;
     margin-right: 60px;
 }
-
 .bottom-photo{
     position: absolute;
     left: 325px;
     bottom: 145px;
 }
-
 .advantages-after-photo{
     margin-top: 96px;
 }
+.about-company-wrapper{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/галлерея/gostinnaya.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about-company-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.75);
+    z-index: 1;
+}
+.about-company{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 50px;
+    position: relative;
+    z-index: 2;
+    color: #9c9c9c;
+    font-family: Circle-Regular;
+}
+.about-company-text{
+    width: 50%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 40px;
+}
+.about-company-text-header{
+    font-size: 2rem;
+    font-family: EuropeExt-Bold;
+    text-transform: uppercase;
+    color: white;
+}
+.about-company-images{
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 4;
+}
+.black-square{
+    width: 70%;
+    height: 400px;
+    background-color: black;
+    opacity: .7;
+
+}
+.about-company-image{
+    width: 80%;
+    height: 500px;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../images/типы ремонта/about-company-image-remont.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    margin-left: 40px;
+}
+.about-company-images p{
+    position: absolute;
+    z-index: 4;
+    margin-top: 89%;
+    padding: 15px;
+    background-color: #303030;
+    font-family: Circle-Regular;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.about-company-numbers{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-top: 1px solid #565655;
+    position: relative;
+    z-index: 3;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.about-company-text-button{
+    display: flex;
+    width: 270px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+.about-company-numbers{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.numbers-block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.numbers-block p{
+    margin: 0;
+}
+.numbers-block-number{
+    font-size: 2.5rem;
+    color: #ffac30;
+    font-family: EuropeExt-Bold;
+
+}
+.numbers-block-description{
+    text-transform: uppercase;
+}
+.remont-types-wrapper{
+    width: 100%;
+    background-color: #1e1e1e;
+}
+.remont-types{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    font-family: Circle-Regular;
+    color: #9c9c9c;
+    flex-direction: column;
+}
+.remont-types-blocks-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.remont-types-text-header{
+    font-family: EuropeExt-Bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+}
+.remont-types-text-description{
+    font-family: Circle-Regular;
+    font-size: 1rem;
+    width: 40%;
+}
+.remont-types-block-wrapper-one{
+    width: 30%;
+    background-image: url('../images/галлерея/gostinnaya.jpg');
+    background-color: darkgray;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.remont-types-block-wrapper-two{
+    width: 30%;
+    background-image: url('../images/галлерея/gostinnaya-2.jpg');
+    background-color: darkgray;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.remont-types-block-wrapper-three{
+    width: 30%;
+    background-image: url('../images/галлерея/gostinnaya-3.jpg');
+    background-color: darkgray;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.remont-types-block-wrapper-one:hover{
+    box-shadow: 0px 0px 10px 1px #9d7432;
+    cursor: pointer;
+    color: white;
+}
+.remont-types-block-wrapper-one:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.75);
+    z-index: 2;
+}
+.remont-types-block-wrapper-two:hover{
+    box-shadow: 0px 0px 10px 1px #9d7432;
+    cursor: pointer;
+    color: white;
+}
+.remont-types-block-wrapper-two:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.75);
+    z-index: 2;
+}
+.remont-types-block-wrapper-three:hover{
+    box-shadow: 0px 0px 10px 1px #9d7432;
+    cursor: pointer;
+    color: white;
+}
+.remont-types-block-wrapper-three:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.75);
+    z-index: 2;
+}
+
+.remont-types-block{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+.remont-types-block-header{
+    font-family: Circle-bold;
+    font-size: 1rem;
+    color: #da9633;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #636363;
+}
+
+
+
+
+
+
+
+
+.remont-types-button{
+    display: flex;
+    width: 270px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.remont-types-button-text{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffac30;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+    color: white;
+}
+.remont-types-button:hover .arrow-button{
+    width: 40%;
+}
+.remont-types-list p{
+    margin: 11px;
+}
+.show-more{
+    color: #da9633;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: .8rem;
+}
+.show-more-text{
+    display: none;
+    flex-direction: column;
+}
+.remont-types-block-price{
+    width: 100%;
+    color: #da9633;
+    font-family: Circle-Light;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #da9633;
+    border-bottom: 1px solid #da9633;
+}
+.remont-types-oreder-calculation{
+    color: #da9633;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.free-calculate-wrapper{
+    background-image: url('../images/галлерея/gostinnaya.jpg');
+    background-color: darkgray;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.free-calculate-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    opacity: .9;
+    z-index: 2;
+}
+.free-calculate{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.free-calculate-text{
+    width: 50%;
+}
+.free-calculate-image{
+    width: 45%;
+}
+.free-calculate-form{
+    width: 100%;
+}
+
+.free-calculate-header{
+    font-family: EuropeExt-Bold;
+    color: black;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.free-calculate-text-description{
+    font-family: Circle-Light;
+    font-size: 1.1rem;
+}
+.pricelist-button{
+    display: flex;
+    width: 270px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 25px;
+
+}
+.download-button-image{
+    width: 20%;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    transition: .35s;
+}
+.download-button-image img{
+    width: 20px;
+    height: auto;
+    padding: 5px;
+}
+.download-button-text{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffac30;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+    color: white;
+    font-family: Circle-Regular;
+}
+.free-calculate-form-wrapper{
+    width: 100%;
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+.free-calculate-form-wrapper:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.85);
+    z-index: 1;
+}
+.free-calculate-form{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+.free-calculate-form-text{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    font-family: Circle-Regular;
+    color: #afafac;
+}
+.free-calculate-from-header{
+    color: #da9633;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.free-calculate-form-description{
+    width: 95%;
+    margin-top: 0;
+}
+.free-calculate-form form{
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.free-calculate-form form input{
+
+    width: 250px;
+    height: 25px;
+    border: none;
+    margin-bottom: 10px;
+    background: none;
+    font-family: Circle-Regular;
+    border-bottom: 1px solid #949494;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    outline:none;
+    color: white;
+    font-size: 1rem;
+    margin-right: 30px;
+}
+.call-me-button{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.free-calculate-form-button{
+    width: 100%;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1.5px solid #da9633;
+    color: #da9633;
+    height: 45px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Circle-Regular;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.free-calculate-form-privacy-wrapper{
+   display: flex;
+   align-items: center;
+}
+.free-calculate-form-privacy-text{
+    width: 100%;
+    color: #949494;
+    font-size: .7rem;
+}
+.free-calculate-form-privacy-text{
+    font-family: Circle-Regular;
+    font-size: .65rem;
+}
+
+.calculator-wrapper{
+    width: 100%;
+    background-image: url('../images/галлерея/gostinnaya.jpg');
+    background-color: darkgray;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 1.5s;
+    /*height: 90vh;*/
+
+}
+
+.calculator-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.9);
+    z-index: 2;
+}
+.calculator-block{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    color: #636363;
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+}
+.calculator{
+    width: 50%;
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+}
+.calculator-header{
+    color: white;
+    font-family: EuropeExt-Bold;
+    font-size: 1.7rem;
+    width: 80%;
+    text-transform: uppercase;
+}
+.left-part-calculator{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+}
+.left-part-calculator input{
+    transform:scale(1.3);
+}
+.left-part-calculator label {
+    display: block;
+    padding-left: 16px;
+    /* position is not required */
+}
+
+.left-part-calculator input {
+    position: absolute;
+    margin-left: -16px;
+}
+
+.left-part-calculator-header{
+    font-family: Circle-bold;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.right-part-calculator-header{
+    font-family: Circle-bold;
+     color: white;
+     font-size: 1rem;
+     text-transform: uppercase;
+ }
+.building-type{
+    display: flex;
+    flex-direction: column;
+}
+.remont-type{
+    display: flex;
+    flex-direction: column;
+}
+.right-part-calculator{
+    width: 50%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.right-part-calculator input{
+    transform:scale(1.3);
+}
+.rooms-type{
+    display: flex;
+    flex-direction: column;
+}
+.room-size{
+    display: flex;
+    flex-direction: column;
+}
+.room-size-input-wrapper{
+    display: flex;
+}
+.calculator-result-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
