@@ -290,53 +290,93 @@
                 <div class="left-part-calculator">
                     <div class="building-type">
                         <p class="left-part-calculator-header">Тип здания</p>
-                        <div style="vertical-align: center">
-                        <input type="radio"><label>новостройка</label>
-                        </div>
-                        <label><input type="radio">вторичка</label>
-                        <label><input type="rado">коттеджи</label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="building-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">новостройка</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="building-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">вторичка</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="building-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">коттеджи</span>
+                        </label>
                     </div>
                     <div class="remont-type">
                         <p class="left-part-calculator-header">Тип ремонта</p>
-                        <label><input type="radio">косметический</label>
-                        <label><input type="radio">капитальный</label>
-                        <label><input type="radio">евроремонт</label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="remont-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">новостройка</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="remont-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">вторичка</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="remont-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">коттеджи</span>
+                        </label>
                     </div>
                 </div>
 
                 <div class="right-part-calculator">
                     <div class="rooms-type">
                         <p class="right-part-calculator-header">Тип помещения</p>
-                        <label><input type="radio">квартира</label>
-                        <label><input type="radio">коттедж</label>
-                        <label><input type="radio">оффис</label>
-                        <label><input type="radio">коммерчиские помещения</label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="rooms-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">квартира</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="rooms-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">коттедж</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="rooms-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">офис</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="rooms-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">коммерческие помещения</span>
+                        </label>
+
                     </div>
                     <div class="room-size">
                         <p class="right-part-calculator-header">Метраж комнаты</p>
                         <div class="room-size-input-wrapper">
-                            <input placeholder="Введите метраж">
-                            <div>Ок</div>
+                            <input placeholder="Введите метраж" class="room-size-input">
+                            <div class="room-size-input-button">Ок</div>
                         </div>
                     </div>
                 </div>
 
                     <div class="calculator-result-wrapper">
                         <div class="remont-price-wrapper">
-                            <p>Стоимость ремонта</p>
-                            <p>125 000 грн</p>
+                            <p class="remont-price-header">Стоимость ремонта</p>
+                            <p class="remont-price-text">125 000 грн</p>
                         </div>
                         <div class="deadlines-wrapper">
-                            <p>Сроки</p>
-                            <p>14 дней</p>
+                            <p class="deadlines-header">Сроки</p>
+                            <p class="deadlines-text">14 дней</p>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="header-form-wrapper">
-                    <div class="header-form">
-                        <p class="header-form-title">Заказать бесплатный расчет сметы за 1 день</p>
+            <div class="calculator-form-main-wrapper">
+                <p class="form-label">*Данный расчет является ориентировачным. Просто оставьте заявку</p>
+                <div class="calculator-form-wrapper">
+                    <div class="calculator-form">
+                        <p class="calculator-form-title">Для расчета точной стоимости вызовите замерщика бесплатно</p>
                         <form>
                             <input placeholder="Ваше имя">
                             <input placeholder="Ваш телефон">
@@ -348,6 +388,7 @@
                         </form>
                     </div>
                 </div>
+            </div>
 
         </div>
     </div>
