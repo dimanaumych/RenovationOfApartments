@@ -323,7 +323,7 @@ header:before {
     margin-bottom: 107px;
 }
 .info-container{
-    font-family: Circle-Light;
+    font-family: Circe-Light;
     font-size: 17px;
     width: 395px;
     height: 63px;
@@ -660,7 +660,7 @@ header:before {
 .remont-types-block-price{
     width: 100%;
     color: #da9633;
-    font-family: Circle-Light;
+    font-family: Circe-Light;
     font-size: 1.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -720,7 +720,7 @@ header:before {
     letter-spacing: 1px;
 }
 .free-calculate-text-description{
-    font-family: Circle-Light;
+    font-family: Circe-Light;
     font-size: 1.1rem;
 }
 .pricelist-button{
@@ -757,7 +757,7 @@ header:before {
     font-size: .8rem;
     font-weight: bold;
     color: white;
-    font-family: Circle-Regular;
+    font-family: Circe-Regular;
 }
 .free-calculate-form-wrapper{
     width: 100%;
@@ -1057,7 +1057,7 @@ header:before {
 .form-label{
     text-align: center;
     color: #898989;
-    font-family: Circle-Light;
+    font-family: Circe-Light;
 }
 .calculator-form-wrapper{
     width: 100%;
