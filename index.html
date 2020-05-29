@@ -291,37 +291,32 @@
                     <div class="building-type">
                         <p class="left-part-calculator-header">Тип здания</p>
                         <label class="label">
-                            <input type="radio" class="radio-button" name="building-type">
+                            <input type="radio" class="radio-button" name="building-type" value="new" checked>
                             <span class="fake-span"></span>
                             <span class="label-text">новостройка</span>
                         </label>
                         <label class="label">
-                            <input type="radio" class="radio-button" name="building-type">
+                            <input type="radio" class="radio-button" name="building-type" value="old">
                             <span class="fake-span"></span>
                             <span class="label-text">вторичка</span>
-                        </label>
-                        <label class="label">
-                            <input type="radio" class="radio-button" name="building-type">
-                            <span class="fake-span"></span>
-                            <span class="label-text">коттеджи</span>
                         </label>
                     </div>
                     <div class="remont-type">
                         <p class="left-part-calculator-header">Тип ремонта</p>
                         <label class="label">
-                            <input type="radio" class="radio-button" name="remont-type">
+                            <input type="radio" class="radio-button" name="remont-type" value="cosmetic" checked>
                             <span class="fake-span"></span>
-                            <span class="label-text">новостройка</span>
+                            <span class="label-text">косметический</span>
                         </label>
                         <label class="label">
-                            <input type="radio" class="radio-button" name="remont-type">
+                            <input type="radio" class="radio-button" name="remont-type" value="capital">
                             <span class="fake-span"></span>
-                            <span class="label-text">вторичка</span>
+                            <span class="label-text">капитальный</span>
                         </label>
                         <label class="label">
-                            <input type="radio" class="radio-button" name="remont-type">
+                            <input type="radio" class="radio-button" name="remont-type" value="euro">
                             <span class="fake-span"></span>
-                            <span class="label-text">коттеджи</span>
+                            <span class="label-text">евроремонт</span>
                         </label>
                     </div>
                 </div>
@@ -330,22 +325,22 @@
                     <div class="rooms-type">
                         <p class="right-part-calculator-header">Тип помещения</p>
                         <label class="label">
-                            <input type="radio" class="radio-button" name="rooms-type">
+                            <input type="radio" class="radio-button" name="rooms-type" value="flat" checked>
                             <span class="fake-span"></span>
                             <span class="label-text">квартира</span>
                         </label>
                         <label class="label">
-                            <input type="radio" class="radio-button" name="rooms-type">
+                            <input type="radio" class="radio-button" name="rooms-type" value="cottage">
                             <span class="fake-span"></span>
                             <span class="label-text">коттедж</span>
                         </label>
                         <label class="label">
-                            <input type="radio" class="radio-button" name="rooms-type">
+                            <input type="radio" class="radio-button" name="rooms-type" value="office">
                             <span class="fake-span"></span>
                             <span class="label-text">офис</span>
                         </label>
                         <label class="label">
-                            <input type="radio" class="radio-button" name="rooms-type">
+                            <input type="radio" class="radio-button" name="rooms-type" value="commercial">
                             <span class="fake-span"></span>
                             <span class="label-text">коммерческие помещения</span>
                         </label>
@@ -354,20 +349,20 @@
                     <div class="room-size">
                         <p class="right-part-calculator-header">Метраж комнаты</p>
                         <div class="room-size-input-wrapper">
-                            <input placeholder="Введите метраж" class="room-size-input">
+                            <input placeholder="Введите метраж" class="room-size-input" maxlength="4">
                             <div class="room-size-input-button">Ок</div>
                         </div>
                     </div>
                 </div>
 
-                    <div class="calculator-result-wrapper">
+                    <div class="calculator-result-wrapper" >
                         <div class="remont-price-wrapper">
                             <p class="remont-price-header">Стоимость ремонта</p>
-                            <p class="remont-price-text">125 000 грн</p>
+                            <p class="remont-price-text" >0</p>
                         </div>
                         <div class="deadlines-wrapper">
                             <p class="deadlines-header">Сроки</p>
-                            <p class="deadlines-text">14 дней</p>
+                            <p class="deadlines-text">0</p>
                         </div>
                     </div>
                 </div>
@@ -568,6 +563,7 @@
 </footer>
 <script src="scripts/numbers.js"></script>
 <script src="scripts/show_more.js"></script>
+<script src="scripts/calculator.js"></script>
 <script src="scripts/header.js"></script>
 <script src="scripts/banner_slider.js"></script>
 </body>
