@@ -290,53 +290,93 @@
                 <div class="left-part-calculator">
                     <div class="building-type">
                         <p class="left-part-calculator-header">Тип здания</p>
-                        <div style="vertical-align: center">
-                        <input type="radio"><label>новостройка</label>
-                        </div>
-                        <label><input type="radio">вторичка</label>
-                        <label><input type="rado">коттеджи</label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="building-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">новостройка</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="building-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">вторичка</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="building-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">коттеджи</span>
+                        </label>
                     </div>
                     <div class="remont-type">
                         <p class="left-part-calculator-header">Тип ремонта</p>
-                        <label><input type="radio">косметический</label>
-                        <label><input type="radio">капитальный</label>
-                        <label><input type="radio">евроремонт</label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="remont-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">новостройка</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="remont-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">вторичка</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="remont-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">коттеджи</span>
+                        </label>
                     </div>
                 </div>
 
                 <div class="right-part-calculator">
                     <div class="rooms-type">
                         <p class="right-part-calculator-header">Тип помещения</p>
-                        <label><input type="radio">квартира</label>
-                        <label><input type="radio">коттедж</label>
-                        <label><input type="radio">оффис</label>
-                        <label><input type="radio">коммерчиские помещения</label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="rooms-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">квартира</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="rooms-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">коттедж</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="rooms-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">офис</span>
+                        </label>
+                        <label class="label">
+                            <input type="radio" class="radio-button" name="rooms-type">
+                            <span class="fake-span"></span>
+                            <span class="label-text">коммерческие помещения</span>
+                        </label>
+
                     </div>
                     <div class="room-size">
                         <p class="right-part-calculator-header">Метраж комнаты</p>
                         <div class="room-size-input-wrapper">
-                            <input placeholder="Введите метраж">
-                            <div>Ок</div>
+                            <input placeholder="Введите метраж" class="room-size-input">
+                            <div class="room-size-input-button">Ок</div>
                         </div>
                     </div>
                 </div>
 
                     <div class="calculator-result-wrapper">
                         <div class="remont-price-wrapper">
-                            <p>Стоимость ремонта</p>
-                            <p>125 000 грн</p>
+                            <p class="remont-price-header">Стоимость ремонта</p>
+                            <p class="remont-price-text">125 000 грн</p>
                         </div>
                         <div class="deadlines-wrapper">
-                            <p>Сроки</p>
-                            <p>14 дней</p>
+                            <p class="deadlines-header">Сроки</p>
+                            <p class="deadlines-text">14 дней</p>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="header-form-wrapper">
-                    <div class="header-form">
-                        <p class="header-form-title">Заказать бесплатный расчет сметы за 1 день</p>
+            <div class="calculator-form-main-wrapper">
+                <p class="form-label">*Данный расчет является ориентировачным. Просто оставьте заявку</p>
+                <div class="calculator-form-wrapper">
+                    <div class="calculator-form">
+                        <p class="calculator-form-title">Для расчета точной стоимости вызовите замерщика бесплатно</p>
                         <form>
                             <input placeholder="Ваше имя">
                             <input placeholder="Ваш телефон">
@@ -348,6 +388,7 @@
                         </form>
                     </div>
                 </div>
+            </div>
 
         </div>
     </div>
@@ -465,7 +506,7 @@
                     <p class="steps-name">оставляете заявку и получаете консультацию</p>
                     <p class="steps-info">Мы Вас консультируем. Задаем много вопросов
                         и выявляем какой ремонт Вам нужен, а также на что нужно обратить внимание в первую очередь</p>
-                    <p class="feedback-option">Оставить заявку</p>
+
                 </div>
                 <div class="steps">
                     <img src="images/icons/3-.png" class="steps-number">
@@ -473,7 +514,7 @@
                     <p class="steps-name">оставляете заявку и получаете консультацию</p>
                     <p class="steps-info">Мы Вас консультируем. Задаем много вопросов
                         и выявляем какой ремонт Вам нужен, а также на что нужно обратить внимание в первую очередь</p>
-                    <p class="feedback-option">Оставить заявку</p>
+
                 </div>
                 <div class="steps">
                     <img src="images/icons/4-.png" class="steps-number">
@@ -481,7 +522,7 @@
                     <p class="steps-name">оставляете заявку и получаете консультацию</p>
                     <p class="steps-info">Мы Вас консультируем. Задаем много вопросов
                         и выявляем какой ремонт Вам нужен, а также на что нужно обратить внимание в первую очередь</p>
-                    <p class="feedback-option">Оставить заявку</p>
+
                 </div>
                 <div class="steps">
                     <img src="images/icons/5-.png" class="steps-number">
@@ -489,7 +530,7 @@
                     <p class="steps-name">оставляете заявку и получаете консультацию</p>
                     <p class="steps-info">Мы Вас консультируем. Задаем много вопросов
                         и выявляем какой ремонт Вам нужен, а также на что нужно обратить внимание в первую очередь</p>
-                    <p class="feedback-option">Оставить заявку</p>
+
                 </div>
                 <div class="steps">
                     <img src="images/icons/6-.png" class="steps-number">
@@ -497,7 +538,7 @@
                     <p class="steps-name">оставляете заявку и получаете консультацию</p>
                     <p class="steps-info">Мы Вас консультируем. Задаем много вопросов
                         и выявляем какой ремонт Вам нужен, а также на что нужно обратить внимание в первую очередь</p>
-                    <p class="feedback-option">Оставить заявку</p>
+
                 </div>
 
             </div>
@@ -524,7 +565,101 @@
 
 
 <footer>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325518.68780316407!2d30.252511957059642!3d50.4016990487754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1590652947933!5m2!1sru!2sua" width="60%" height="630px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="dark-background"></div>
+        <div class="map-container-info">
+            <div class="map-info">
+                <p class="contact-name">Контакты</p>
+                <div class="container-contacts">
+                    <div class="info-card-footer">
+                        <p class="describe-name">Адрес</p>
+                        <p class="info-area">г. Киев, ул. Героев, 25, офис 426а</p>
+                    </div>
+                    <div class="info-card-footer">
+                        <p class="describe-name">e-mail</p>
+                        <a href="mailto:remontu@gmail.com"><p class="info-area">remontu@gmail.com</p></a>
+                    </div>
+                    <div class="info-card-footer">
+                        <p class="describe-name">телефон</p>
+                       <a href="tel:0 800 330 332"><p class="info-area"> 0 800 330 332 </p></a>
+                    </div>
+                    <div class="info-card-footer">
+                        <p class="describe-name">мы социальны</p>
+                        <div class="info-icons">
+                            <a href="#" class="icons">
+                                <img class="icon-first" src="images/icons/inst.png">
+                                <img class="icon-second" src="images/icons/inst-white.png">
+                            </a>
+                            <a href="#" class="icons">
+                                <img class="icon-first" src="images/icons/fb.png">
+                                <img class="icon-second" src="images/icons/fb-white.png">
+                            </a>
+                            <a href="#" class="icons">
+                                <img class="icon-first" src="images/icons/telegram.png">
+                                <img class="icon-second" src="images/icons/telegram-white.png">
+                            </a>
+                            <a href="#" class="icons">
+                                <img class="icon-first"  src="images/icons/viber.png">
+                                <img class="icon-second" src="images/icons/viber-white.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="free-calculate-form-wrapper">
+                <div class="free-calculate-form">
+                    <div class="free-calculate-form-text">
+                        <p class="free-calculate-from-header">У вас есть вопросы?</p>
+                        <p class="free-calculate-form-description">Заполните заявку и менеджер свяжется с вами в течении 15 минут!</p>
+                    </div>
+                    <form>
+                        <input placeholder="Ваше имя">
+                        <input placeholder="Ваш телефон">
+                        <div class="call-me-button">
+                            <button class="free-calculate-form-button">Перезвоните мне</button>
+                            <div class="free-calculate-form-privacy-wrapper">
+                                <input style="width: 16px; margin-right: 5px; margin-top: 10px" type="checkbox">
+                                <p class="free-calculate-form-privacy-text">Согласие с политикой конфиденциальности</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="footer-info-content">
+        <img src="images/icons/logo.png">
+        <p class="content-footer-describe">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее  </p>
+        <div class="nav-menu-footer">
+            <div class="footer-navigation">
+                <p class="nav-describe">компания</p>
+                <p class="menu-footer-li">Цени</p>
+                <p class="menu-footer-li">калькулятор</p>
+                <p class="menu-footer-li">акции</p>
+                <p class="menu-footer-li">портфолио</p>
+                <p class="menu-footer-li">Отзывы</p>
+            </div>
+            <div class="point-footer"></div>
+            <div class="footer-navigation">
+                <p class="nav-describe">стоимость</p>
+                <p class="menu-footer-li">капитальный ремонт</p>
+                <p class="menu-footer-li">косметический ремонт</p>
+                <p class="menu-footer-li">евроремонт</p>
+            </div>
+            <div class="point-footer"></div>
+            <div class="footer-navigation">
+                <p class="nav-describe">услуги</p>
+                <p class="menu-footer-li">ремонт квартир</p>
+                <p class="menu-footer-li">ремонт коттеджей</p>
+                <p class="menu-footer-li">ремонт офисов</p>
+                <p class="menu-footer-li">инженерные системы</p>
+                <p class="menu-footer-li">отделка фасадов</p>
+            </div>
+        </div>
+    </section>
 </footer>
+
 <script src="scripts/numbers.js"></script>
 <script src="scripts/show_more.js"></script>
 <script src="scripts/header.js"></script>
