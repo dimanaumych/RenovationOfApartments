@@ -1565,6 +1565,7 @@ footer .free-calculate-form-wrapper{
 .footer-navigation{
     display: flex;
     flex-direction: column;
+    width: 140px;
 }
 
 .menu-footer-li{
@@ -1579,4 +1580,30 @@ footer .free-calculate-form-wrapper{
 .menu-footer-li:hover{
     color:whitesmoke;
     cursor: pointer;
+}
+
+.button-icons{
+    margin-top: 79px;
+    margin-left: 114px;
+}
+
+.button-footer{
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 17px;
+    width: 251px;
+    height: 16px;
+    border: 1px solid #DA9633;
+    color:#DA9633;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    font-family:CirceBold-Bold;
+    margin-bottom: 22px;
+}
+
+.button-icons .info-icons{
+    margin-left: 42px;
+    width: 31px;
+    height: 31px;
 }
