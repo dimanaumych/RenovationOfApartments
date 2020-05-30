@@ -20,6 +20,8 @@ body{
 
 a {
     text-decoration: none;
+    text-underline: none;
+    color: white;
 }
 ul
 {
@@ -1505,7 +1507,6 @@ footer .free-calculate-form-wrapper{
 
 .content-footer-describe{
     color:#BABABA;
-    margin-left: 17px;
     width: 140px;
     font-size: 12px;
     font-family: Circe-Light;
@@ -1562,6 +1563,7 @@ footer .free-calculate-form-wrapper{
     margin-right: 44px;
 }
 
+
 .footer-navigation{
     display: flex;
     flex-direction: column;
@@ -1584,7 +1586,7 @@ footer .free-calculate-form-wrapper{
 
 .button-icons{
     margin-top: 79px;
-    margin-left: 114px;
+    margin-left: 20px;
 }
 
 .button-footer{
@@ -1607,3 +1609,122 @@ footer .free-calculate-form-wrapper{
     width: 31px;
     height: 31px;
 }
+
+@media(max-width: 1440px) {
+    .container-advantages {
+        max-width: 1024px;
+    }
+
+    .info-advantages {
+        width: 210px;
+    }
+
+    .info-container {
+        width: 380px;
+    }
+    .top-photo {
+        margin-left: 0px;
+    }
+
+    .bottom-photo {
+        left: 315px;
+        bottom: 395px;
+    }
+
+    .advantages-describe{
+        margin-left: 10px;
+    }
+
+
+    .about-company {
+        max-width: 1024px;
+    }
+
+    .remont-types {
+        max-width: 1024px;
+    }
+
+    .remont-types-text-description {
+        width: 60%;
+    }
+
+    .free-calculate {
+        max-width: 1024px;
+    }
+
+    .calculator-block {
+        max-width: 1024px;
+    }
+
+    .calculator-header {
+        width: 95%;
+    }
+
+    .calculator-block {
+        justify-content: space-around;
+    }
+
+    .container-portfolio {
+        max-width: 1024px;
+    }
+
+    .container-content {
+        max-width: 1024px;
+    }
+
+    .card {
+        margin-top: 5px;
+        width: 332px;
+    }
+
+    .card-image {
+        width: 332px;
+    }
+
+    .container-content-steps {
+        max-width: 1024px;
+    }
+
+    .steps {
+        margin-top: 29px;
+        width: 290px;
+    }
+
+    .steps-number {
+        width: 200px;
+    }
+
+    .container-partners {
+        max-width: 1024px;
+    }
+
+    .footer-info-content {
+        max-width: 1024px;
+    }
+
+    .content-footer-describe {
+        display: none;
+    }
+
+    .nav-menu-footer {
+        margin-left: 10px;]
+    }
+
+    footer .free-calculate-form-wrapper {
+        max-width: 1024px;
+    }
+
+    footer  .free-calculate-form-wrapper:after {
+        width: 1024px;
+    }
+
+    .free-calculate-form form {
+        width: 70%;
+    }
+
+    .map-info {
+        width: 510px;
+    }
+}
+
+
