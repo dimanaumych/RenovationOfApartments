@@ -1712,7 +1712,11 @@ footer .free-calculate-form-wrapper{
 
     footer .free-calculate-form-wrapper {
         max-width: 1024px;
+        padding-right: 0px;
+        padding-left: 0px;
+
     }
+
 
     footer  .free-calculate-form-wrapper:after {
         width: 1024px;
@@ -1725,6 +1729,28 @@ footer .free-calculate-form-wrapper{
     .map-info {
         width: 510px;
     }
+
+    .free-calculate-image img{
+        width: 400px;
+    }
+
+    .header-wrapper {
+        width: 1024px;
+    }
+
+    .header-content {
+        width: 1024px;
+    }
+
+    .header-bottom {
+        width: 1024px;
+    }
+
+    .free-calculate-text {
+        margin-bottom: 40px;
+    }
+
 }
+
 
 
