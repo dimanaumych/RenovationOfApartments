@@ -20,6 +20,8 @@ body{
 
 a {
     text-decoration: none;
+    text-underline: none;
+    color: white;
 }
 ul
 {
@@ -323,7 +325,7 @@ header:before {
     margin-bottom: 107px;
 }
 .info-container{
-    font-family: Circle-Light;
+    font-family: Circe-Light;
     font-size: 17px;
     width: 395px;
     height: 63px;
@@ -337,12 +339,16 @@ header:before {
     margin-bottom: 57px;
 }
 .article-name{
-    font-family:"CirceBold-Bold";
     font-size: 17px;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.article-info{
+    font-family: Circe-Light;
+}
+
 .top-photo{
     margin-left: 27px;
     margin-right: 60px;
@@ -656,7 +662,7 @@ header:before {
 .remont-types-block-price{
     width: 100%;
     color: #da9633;
-    font-family: Circle-Light;
+    font-family: Circe-Light;
     font-size: 1.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -716,7 +722,7 @@ header:before {
     letter-spacing: 1px;
 }
 .free-calculate-text-description{
-    font-family: Circle-Light;
+    font-family: Circe-Light;
     font-size: 1.1rem;
 }
 .pricelist-button{
@@ -753,7 +759,7 @@ header:before {
     font-size: .8rem;
     font-weight: bold;
     color: white;
-    font-family: Circle-Regular;
+    font-family: Circe-Regular;
 }
 .free-calculate-form-wrapper{
     width: 100%;
@@ -769,7 +775,7 @@ header:before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,.85);
+    background-image: url("../images/bg-форма.png");
     z-index: 1;
 }
 .free-calculate-form{
@@ -1053,7 +1059,7 @@ header:before {
 .form-label{
     text-align: center;
     color: #898989;
-    font-family: Circle-Light;
+    font-family: Circe-Light;
 }
 .calculator-form-wrapper{
     width: 100%;
@@ -1137,7 +1143,7 @@ header:before {
 }
 
 .container-portfolio{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
     margin-top: 130px;
 
@@ -1152,7 +1158,7 @@ header:before {
 }
 
 .container-content{
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -1288,7 +1294,7 @@ header:before {
 }
 
 .container-content-steps{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
     padding-bottom: 100px;
 }
@@ -1339,18 +1345,16 @@ header:before {
 
 .steps-name{
     width: 252px;
-    align:left;
     color:#FFFFFF;
-    font-family:Circe-Regular;
+    font-family: Circe-Light;
     font-size: 15px;
     text-transform: uppercase;
 }
 
 .steps-info{
     width: 295px;
-    align:left;
     color:#FFFFFF;
-    font-family:Circe-Light;
+    font-family: Circe-Light;
     font-size: 15px;
 }
 
@@ -1368,10 +1372,10 @@ header:before {
 }
 
 .container-partners{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
     padding-top: 180px;
-    padding-bottom: 80px;
+    padding-bottom: 130px;
 }
 
 .container-partners__name{
@@ -1383,7 +1387,7 @@ header:before {
 }
 
 .container-partners__info{
-    font-family: Circle-Light;
+    font-family: Circe-Light;
     font-size: 1rem;
     width: 512px;
 }
@@ -1399,3 +1403,354 @@ header:before {
     margin-top: 80px;
     width: 253px;
 }
+
+footer{
+    width: 100%;
+    background-color:#303030
+}
+
+.map{
+    width: 100%;
+    position: relative;
+    background: url("../images/bg-шаги.png");
+}
+
+.map-container-info{
+    max-width: 1200px;
+    margin: 0px auto;
+    z-index: 3;
+}
+
+.map-info{
+    width: 533px;
+    height: 257px;
+    padding-left: 31px;
+    background-color: #303030;
+    top: 60px;
+    position: absolute;
+}
+
+.contact-name{
+    font-family: EuropeExt-Bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 29px;
+}
+
+.container-contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.describe-name{
+    font-family: Circle-bold;
+    font-size: 1rem;
+    color: #da9633;
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.info-area{
+    font-family: Circle-Regular;
+    color: #9c9c9c;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.info-icons{
+    display: flex;
+}
+
+.info-icons img{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    margin-right: 19px;
+}
+
+.info-card-footer{
+    margin-bottom: 31px;
+    width: 245px;
+}
+
+.map iframe{
+    margin-left: 40%;
+}
+
+.dark-background{
+    background-color: #191816a3;
+    width: 60%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 630px;
+}
+
+footer .free-calculate-form-wrapper{
+    position: absolute;
+    bottom: 0px;
+    max-width: 1200px;
+    margin-bottom: 0px;
+
+}
+
+.footer-info-content{
+    max-width: 1200px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.content-footer-describe{
+    color:#BABABA;
+    width: 140px;
+    font-size: 12px;
+    font-family: Circe-Light;
+    margin-top: 72px;
+    margin-right: 74px;
+}
+
+.info-area:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.icon-second{
+    display: none;
+}
+
+.icons:hover .icon-second{
+    display: block;
+}
+
+.icons:hover .icon-first{
+    display: none;
+}
+
+.container-content-partners img {
+    opacity: 0.7;
+}
+
+.container-content-partners img:hover {
+    opacity: 1;
+    transition: 0.5;
+}
+
+.nav-describe{
+    font-family:Circe-Light;
+    font-size: 16px;
+    color: #929292;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.nav-menu-footer{
+    display: flex;
+}
+
+.point-footer{
+    background-color: #3B3B3B;
+    width: 2px;
+    height: 151px;
+    margin-top: 38px;
+    margin-left: 44px;
+    margin-right: 44px;
+}
+
+
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+
+.menu-footer-li{
+    text-transform: capitalize;
+    color: #929292;
+    font-family: Circe-Light;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.menu-footer-li:hover{
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.button-icons{
+    margin-top: 79px;
+    margin-left: 20px;
+}
+
+.button-footer{
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 17px;
+    width: 251px;
+    height: 16px;
+    border: 1px solid #DA9633;
+    color:#DA9633;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    font-family:CirceBold-Bold;
+    margin-bottom: 22px;
+}
+
+.button-icons .info-icons{
+    margin-left: 42px;
+    width: 31px;
+    height: 31px;
+}
+
+@media(max-width: 1440px) {
+    .container-advantages {
+        max-width: 1024px;
+    }
+
+    .info-advantages {
+        width: 210px;
+    }
+
+    .info-container {
+        width: 380px;
+    }
+    .top-photo {
+        margin-left: 0px;
+    }
+
+    .bottom-photo {
+        left: 315px;
+        bottom: 395px;
+    }
+
+    .advantages-describe{
+        margin-left: 10px;
+    }
+
+
+    .about-company {
+        max-width: 1024px;
+    }
+
+    .remont-types {
+        max-width: 1024px;
+    }
+
+    .remont-types-text-description {
+        width: 60%;
+    }
+
+    .free-calculate {
+        max-width: 1024px;
+    }
+
+    .calculator-block {
+        max-width: 1024px;
+    }
+
+    .calculator-header {
+        width: 95%;
+    }
+
+    .calculator-block {
+        justify-content: space-around;
+    }
+
+    .container-portfolio {
+        max-width: 1024px;
+    }
+
+    .container-content {
+        max-width: 1024px;
+    }
+
+    .card {
+        margin-top: 5px;
+        width: 332px;
+    }
+
+    .card-image {
+        width: 332px;
+    }
+
+    .container-content-steps {
+        max-width: 1024px;
+    }
+
+    .steps {
+        margin-top: 29px;
+        width: 290px;
+    }
+
+    .steps-number {
+        width: 200px;
+    }
+
+    .container-partners {
+        max-width: 1024px;
+    }
+
+    .footer-info-content {
+        max-width: 1024px;
+    }
+
+    .content-footer-describe {
+        display: none;
+    }
+
+    .nav-menu-footer {
+        margin-left: 10px;]
+    }
+
+    footer .free-calculate-form-wrapper {
+        max-width: 1024px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+
+
+    footer  .free-calculate-form-wrapper:after {
+        width: 1024px;
+    }
+
+    .free-calculate-form form {
+        width: 70%;
+    }
+
+    .map-info {
+        width: 510px;
+    }
+
+    .free-calculate-image img{
+        width: 400px;
+    }
+
+    .header-wrapper {
+        width: 1024px;
+    }
+
+    .header-content {
+        width: 1024px;
+    }
+
+    .header-bottom {
+        width: 1024px;
+    }
+
+    .free-calculate-text {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
