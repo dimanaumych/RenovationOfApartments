@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<header>
+<header id="header">
     <div class="header-wrapper">
         <a href="index.html"><img class="logo" src="images/icons/logo.png"></a>
         <div class="contact-info">
@@ -66,7 +66,7 @@
     </div>
 </header>
 
-<div class="advantages">
+<div class="advantages" id="advantages">
     <div class="container-advantages">
         <div class="advantages-describe">
             <div class="container-describe">
@@ -108,7 +108,7 @@
 
 </div>
 
-<div class="about-company-wrapper">
+<div class="about-company-wrapper" id="about-company-wrapper">
     <div class="about-company">
         <div class="about-company-container">
             <div class="about-company-text">
@@ -146,7 +146,7 @@
 
 
 <div class="remont-types-wrapper">
-    <div class="remont-types">
+    <div class="remont-types" id="remont-types">
     <div class="remont-types-text">
         <p class="remont-types-text-header">Типы ремонта</p>
         <p class="remont-types-text-description">
@@ -243,7 +243,7 @@
 
     </div>
 </div>
-    <div class="free-calculate-wrapper">
+    <div class="free-calculate-wrapper" id="free-calculate-wrapper">
         <div class="free-calculate">
             <div class="free-calculate-container">
                 <div class="free-calculate-text">
@@ -302,7 +302,7 @@
 
 
 
-    <div class="calculator-wrapper">
+    <div class="calculator-wrapper" id="calculator-wrapper">
         <div class="calculator-block">
 
             <div class="calculator">
@@ -410,7 +410,7 @@
 
 </div>
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container-portfolio">
             <p class="portfolio-name">наши проекты</p>
             <div class="container-content">
@@ -560,7 +560,7 @@
         </div>
     </section>
 
-    <section class="partners">
+    <section class="partners" id="partners">
         <div class="container-partners">
             <p class="container-partners__name">наши партнеры</p>
             <p class="container-partners__info">Мы работаем с поставщиками строительных материалов напрямую, что позволит сэкономить до 20% стоимости материалов при заказе ремонта у нас!</p>
@@ -644,37 +644,37 @@
         </div>
     </div>
     <section class="footer-info-content">
-        <img src="images/icons/logo.png">
+        <a href="#header"><img src="images/icons/logo.png"></a>
         <p class="content-footer-describe">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее  </p>
         <div class="nav-menu-footer">
             <div class="footer-navigation">
-                <p class="nav-describe">компания</p>
-                <p class="menu-footer-li">Цени</p>
-                <p class="menu-footer-li">калькулятор</p>
-                <p class="menu-footer-li">акции</p>
-                <p class="menu-footer-li">портфолио</p>
-                <p class="menu-footer-li">Отзывы</p>
+                <a href="#about-company-wrapper"><p class="nav-describe">компания</p></a>
+                <a href="#remont-types"><p class="menu-footer-li">Цени</p></a>
+                <a href="#calculator-wrapper"><p class="menu-footer-li">калькулятор</p></a>
+                <a href="#advantages"><p class="menu-footer-li">преимущества</p></a>
+                <a href="#portfolio"><p class="menu-footer-li">портфолио</p></a>
+                <a href="#partners"><p class="menu-footer-li">партнеры</p></a>
             </div>
             <div class="point-footer"></div>
             <div class="footer-navigation">
-                <p class="nav-describe">стоимость</p>
-                <p class="menu-footer-li">капитальный ремонт</p>
-                <p class="menu-footer-li">косметический ремонт</p>
-                <p class="menu-footer-li">евроремонт</p>
+                <a href="#calculator-wrapper"><p class="nav-describe">стоимость</p></a>
+                <a href="#remont-types"><p class="menu-footer-li">капитальный ремонт</p></a>
+                <a href="#remont-types"> <p class="menu-footer-li">косметический ремонт</p></a>
+                <a href="#remont-types"> <p class="menu-footer-li">евроремонт</p></a>
             </div>
             <div class="point-footer"></div>
             <div class="footer-navigation">
-                <p class="nav-describe">услуги</p>
-                <p class="menu-footer-li">ремонт квартир</p>
-                <p class="menu-footer-li">ремонт коттеджей</p>
-                <p class="menu-footer-li">ремонт офисов</p>
-                <p class="menu-footer-li">инженерные системы</p>
-                <p class="menu-footer-li">отделка фасадов</p>
+                <a href="#remont-types"><p class="nav-describe">услуги</p></a>
+                <a href="#free-calculate-wrapper"><p class="menu-footer-li">ремонт квартир</p></a>
+                <a href="#free-calculate-wrapper"><p class="menu-footer-li">ремонт коттеджей</p></a>
+                <a href="#free-calculate-wrapper"><p class="menu-footer-li">ремонт офисов</p></a>
+                <a href="#free-calculate-wrapper"><p class="menu-footer-li">инженерные системы</p></a>
+                <a href="#free-calculate-wrapper"><p class="menu-footer-li">отделка фасадов</p></a>
             </div>
         </div>
 
         <div class="button-icons">
-            <div class="button-footer">вызов замерщика</div>
+            <a href="#free-calculate-wrapper"><div class="button-footer">вызов замерщика</div></a>
             <div class="info-icons">
                 <a href="#" class="icons">
                     <img class="icon-first" src="images/icons/inst.png">
