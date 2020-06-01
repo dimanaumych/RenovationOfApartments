@@ -1979,7 +1979,7 @@ footer .free-calculate-form-wrapper{
     }
 
     .social-icons-wrapper {
-        margin-left: 20px;
+        margin-left: 60px;
     }
 
     .container-advantages {
@@ -2182,6 +2182,10 @@ footer .free-calculate-form-wrapper{
         width: 100%;
     }
 
+    .right-part-calculator {
+        margin-left: 78px;
+    }
+
     .button-info{
         left: 67px;
     }
@@ -2231,7 +2235,8 @@ footer .free-calculate-form-wrapper{
     }
 
     .container-advantages img {
-        width: 450px;
+        width: 400px;
+        height: 454px;
     }
 
 
