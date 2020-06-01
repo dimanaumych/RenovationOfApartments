@@ -2088,6 +2088,10 @@ footer .free-calculate-form-wrapper{
 
 @media(max-width: 768px) {
 
+    .right-part-calculator {
+        margin-left: 78px;
+    }
+
     .button-info{
         left: 67px;
     }
@@ -2137,7 +2141,8 @@ footer .free-calculate-form-wrapper{
     }
 
     .container-advantages img {
-        width: 450px;
+        width: 400px;
+        height: 454px;
     }
 
 
