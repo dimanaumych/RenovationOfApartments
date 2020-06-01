@@ -1140,12 +1140,14 @@ header:before {
 .portfolio{
     width: 100%;
     margin: 0px auto;
+    position: relative;
 }
 
 .container-portfolio{
     max-width: 1200px;
     margin: 0px auto;
     margin-top: 130px;
+    transition: 2s;
 
 }
 
@@ -1162,6 +1164,7 @@ header:before {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .card{
@@ -1169,6 +1172,8 @@ header:before {
     width: 390px;
     height: 270px;
     position: relative;
+    transition: 2s;
+
 }
 
 
@@ -1185,6 +1190,7 @@ header:before {
     height: 53px;
     z-index: 3;
     cursor: pointer;
+    transition: 2s;
 }
 .project-name{
     padding-top: 10px;
@@ -1234,27 +1240,18 @@ header:before {
     height: 270px;
     position: absolute;
     top: 0px;
+    transition: 2s;
 }
 
 .card:hover .dark{
-
     display: block;
-
 }
-
 .card:hover .info-card{
-
     display: block;
-
 }
 .card:hover .button-info{
-
     display: block;
-
 }
-
-
-
 
 .button-info:hover{
     background: #FFAC30;
@@ -1286,6 +1283,124 @@ header:before {
 }
 .remont-types-button-portfolio:hover .arrow-button{
     width: 40%;
+}
+
+.portfolio-card-wrapper{
+    width: 1200px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px gray;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 50px;
+}
+.cancel-portfolio{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 28px;
+    cursor: pointer;
+}
+.portfolio-card-title-wrapper{
+    width: 35%;
+    background-color: #303030;
+    display: flex;
+    margin-top: 30px;
+    color: white;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.portfolio-card-title{
+    display: flex;
+    font-family: EuropeExt-Bold;
+    font-size: 1.3rem;
+}
+.portfolio-card-title-remont-type{
+    font-family: Circe-Light;
+    font-size: 1.2em;
+}
+.portfolio-card{
+    width: 90%;
+    margin: 0 auto;
+    font-family: Circle-Regular;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-card-slider-wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-card-slider-main-image{
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.portfolio-card-slider-main-image img{
+    width: 100%;
+}
+.portfolio-card-slider-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-card-slider-images img{
+    width: 32%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.portfolio-card-slider-count{
+    /*display: flex;*/
+    margin: 0 auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    z-index: 5;
+    color: black;
+    margin-bottom: 50px;
+
+    /*margin-right: 7.5%;*/
+}
+
+.portfolio-card-slider-count div{
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Circle-Regular;
+
+}
+.portfolio-card-info{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.portfolio-card-youtube iframe{
+    width: 100%;
+    height: 350px;
+}
+.portfolio-card-text{
+    font-size: 1rem;
+    font-family: Circe-Light;
+}
+.portfolio-card-info-info{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #303030;
+    color: #f2af29;
+    display: flex;
+    justify-content: space-around;
+    font-family: EuropeExt-Bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.portfolio-card-info-info p{
+    margin: 15px;
 }
 
 .container-steps{

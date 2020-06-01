@@ -82,7 +82,7 @@ room_size_button.addEventListener('click',function(){
     if (room_size.value >= 20 && room_size.value <= 34 ){
         result_deadline = 30;
     }
-    //
+
     else if(room_size.value >= 35 && room_size.value <= 49){
         result_deadline = 50;
     }
