@@ -290,8 +290,8 @@ header:before {
     font-family: Circle-Regular;
 }
 .container-advantages img{
-    width: 350px;
-    height: 338px;
+    width: 620px;
+    height: 625px;
 }
 .container-name{
     margin-bottom: 25px;
@@ -1828,7 +1828,7 @@ footer .free-calculate-form-wrapper{
     }
 
     .container-advantages img {
-        margin-left: 200px;
+        margin: 0px auto;
     }
 
     .advantages-after-photo {
@@ -1861,7 +1861,7 @@ footer .free-calculate-form-wrapper{
 
     .advantages-after-photo {
         margin: 0px auto;
-        margin-top: 40%;
+        margin-top: 10%;
         display: flex;
         flex-wrap: wrap;
     }
@@ -2012,13 +2012,10 @@ footer .free-calculate-form-wrapper{
     }
 
     .container-advantages img {
-        width: 300px;
-        height: 300px;
+        width: 450px;
+        height: 450px;
     }
 
-    .container-advantages img {
-        margin-left: 116px;
-    }
 
     .about-company-numbers {
         flex-direction: column;
@@ -2196,10 +2193,8 @@ footer .free-calculate-form-wrapper{
     }
 
     .container-advantages img {
-        width: 230px;
-        height: 230px;
-        margin-left: 125px;
-        margin-right: 30px;
+        width: 330px;
+        height: 330px;
     }
 
     .article-info {
@@ -2348,9 +2343,8 @@ footer .free-calculate-form-wrapper{
     }
 
     .container-advantages img {
-        width: 230px;
-        margin-left: 100px;
-        margin-right: 0px;
+        width: 245px;
+        height: 284px;
     }
     .info-advantages {
         width: 149px;
