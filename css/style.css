@@ -680,6 +680,11 @@ header:before {
     opacity: .9;
     z-index: 2;
 }
+
+.calculator-header-flex{
+    display: flex;
+}
+
 .free-calculate{
     width: 1200px;
     margin: 0 auto;
@@ -932,13 +937,14 @@ header:before {
     flex-direction: column;
 }
 .right-part-calculator{
-    width: 50%;
+    width: 60%;
+    margin-left: 80px;
     min-height: 300px;
     display: flex;
     flex-direction: column;
 }
 
-/* POLIGON MOIX MINDS*/
+
 .label{
     display: flex;
     margin-top: 5px;
@@ -1962,6 +1968,10 @@ footer .free-calculate-form-wrapper{
 
 @media(max-width: 768px) {
 
+    .room-size-input {
+        width: 80%;
+        padding-left: 3px;
+    }
     .social-icons-wrapper a {
         margin-right: 10px;
     }
@@ -2143,6 +2153,11 @@ footer .free-calculate-form-wrapper{
 }
 
 @media (max-width: 425px){
+
+    .right-part-calculator{
+        margin-left: 0px;
+    }
+
     .header-wrapper {
         max-width: 375px;
     }
