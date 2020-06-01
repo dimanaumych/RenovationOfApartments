@@ -5,7 +5,7 @@ jQuery(function($){
         var $target = _hash === '' ? $('body') : $( hash + ', a[name="'+ _hash +'"]').first();
         if( ! $target.length ) return;
         e.preventDefault();
-        $('html, body').stop().animate({ scrollTop: $target.offset().top - 0 }, 400, 'swing', function(){
+        $('html, body').stop().animate({ scrollTop: $target.offset().top - 0 }, 1500, 'swing', function(){
             window.location.hash = hash;
         });
     });
