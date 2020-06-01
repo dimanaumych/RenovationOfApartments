@@ -814,6 +814,12 @@ header:before {
     display: flex;
     flex-direction: column;
 }
+
+.free-calculate-container{
+    display: flex;
+    flex-direction: row;
+}
+
 .free-calculate-form-button{
     width: 100%;
     margin-top: 20px;
@@ -1747,6 +1753,10 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 1024px) {
+
+    .about-company-image {
+        width: 160%;
+    }
     .header-text {
         margin-left: 20px;
     }
@@ -1951,6 +1961,11 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 768px) {
+
+    .social-icons-wrapper a {
+        margin-right: 10px;
+    }
+
     .header-wrapper {
         width: 425px;
     }
