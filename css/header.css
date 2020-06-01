@@ -100,11 +100,11 @@
     }
     .menu_button{
         display: flex;
-        width: 50px;
+        width: 40px;
         height: auto;
         position: absolute;
         left: -80px;
-        top: 45px;
+        top: 60px;
         cursor: pointer;
     }
     .cancel_button{
