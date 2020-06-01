@@ -938,7 +938,7 @@ header:before {
 }
 .right-part-calculator{
     width: 60%;
-    margin-left: 80px;
+    margin-left: 150px;
     min-height: 300px;
     display: flex;
     flex-direction: column;
