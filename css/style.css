@@ -1262,7 +1262,8 @@ header:before {
     height: 50px;
     align-items: center;
     cursor: pointer;
-    margin-left: 37%;
+    /*margin-left: 37%;*/
+    margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 140px;
 }
@@ -1294,6 +1295,8 @@ header:before {
     flex-direction: column;
     height: auto;
     margin-top: 50px;
+    flex-wrap: wrap;
+
 }
 .cancel-portfolio{
     position: absolute;
@@ -1729,6 +1732,18 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 1440px) {
+    .portfolio-card-wrapper{
+        width: 1024px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 0px 0px 10px 1px gray;
+        z-index: 5;
+        display: none;
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+
+    }
     .container-advantages {
         max-width: 1024px;
     }
@@ -1879,6 +1894,35 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 1024px) {
+    .container-portfolio{
+        width: 768px;
+    }
+    .portfolio-card-info-info{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    .portfolio-card-wrapper{
+        width: 768px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 0px 0px 10px 1px gray;
+        z-index: 5;
+        display: none;
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+
+    }
+    .portfolio-card-title{
+        display: flex;
+        font-family: EuropeExt-Bold;
+        font-size: 1rem;
+    }
+    .portfolio-card-title-remont-type{
+        font-family: Circe-Light;
+        font-size: .9rem;
+    }
 
     .about-company-image {
         width: 160%;
@@ -2087,6 +2131,56 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 768px) {
+    .card{
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .card-image{
+        width: 100%;
+
+    }
+    .portfolio-card{
+        flex-direction: column;
+    }
+    .container-portfolio{
+        width: 425px;
+    }
+    .portfolio-card-info-info{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    .portfolio-card-title-wrapper {
+        width: 80%;
+    }
+    .portfolio-card-wrapper{
+        width: 425px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 0px 0px 10px 1px gray;
+        z-index: 5;
+        display: none;
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+
+    }
+    .portfolio-card-title{
+        display: flex;
+        font-family: EuropeExt-Bold;
+        font-size: 1rem;
+    }
+    .portfolio-card-title-remont-type{
+        font-family: Circe-Light;
+        font-size: .9rem;
+    }
+    .portfolio-card-slider-wrapper{
+        width: 100%;
+    }
+    .portfolio-card-info{
+        width: 100%;
+    }
 
     .button-info{
         left: 67px;
@@ -2218,7 +2312,7 @@ footer .free-calculate-form-wrapper{
     }
 
     .remont-types-button-portfolio {
-        margin-left: 32%;
+        /*margin-left: 32%;*/
     }
 
     .content-info {
@@ -2282,6 +2376,59 @@ footer .free-calculate-form-wrapper{
 }
 
 @media (max-width: 425px){
+    .cancel-portfolio{
+        top: 35px;
+    }
+    .card{
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .card-image{
+        width: 100%;
+
+    }
+    .portfolio-card{
+        flex-direction: column;
+    }
+    .container-portfolio{
+        width: 320px;
+    }
+    .portfolio-card-info-info{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    .portfolio-card-title-wrapper {
+        width: 80%;
+    }
+    .portfolio-card-wrapper{
+        width: 320px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 0px 0px 10px 1px gray;
+        z-index: 5;
+        display: none;
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+
+    }
+    .portfolio-card-title{
+        display: flex;
+        font-family: EuropeExt-Bold;
+        font-size: .8rem;
+    }
+    .portfolio-card-title-remont-type{
+        font-family: Circe-Light;
+        font-size: .7rem;
+    }
+    .portfolio-card-slider-wrapper{
+        width: 100%;
+    }
+    .portfolio-card-info{
+        width: 100%;
+    }
 
     .right-part-calculator{
         margin-left: 0px;
@@ -2382,7 +2529,7 @@ footer .free-calculate-form-wrapper{
     }
 
     .remont-types-button-portfolio {
-        margin-left: 15%;
+        /*margin-left: 15%;*/
     }
 
     .container-partners__info {
@@ -2513,7 +2660,8 @@ footer .free-calculate-form-wrapper{
     }
 
     .remont-types-button-portfolio {
-        margin-left: 13%;
+        /*margin-left: 13%;*/
+        margin: 0 auto;
     }
 
     .content-info {
