@@ -1,0 +1,132 @@
+
+.left_sidebar{
+    display: none;
+}
+/* Popap */
+
+@media (max-width: 769px) {
+
+
+
+
+    /* BURGER MENU */
+    .left_sidebar{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #232323;
+        color: white;
+        height: 100%;
+        left: 0;top: 0;
+        z-index: 99;
+        align-items: center;
+        transition: 0.5s;
+        transform: translateX(100%);
+        opacity: .95;
+
+    }
+
+    /* Demo Buttons Style */
+    .codrops-demos {
+        padding-top: 1em;
+        font-size: 20px;
+    }
+    .codrops-demos a {
+        display: inline-block;
+        margin: 0.35em 0.1em;
+        padding: 0.5em 1.2em;
+        outline: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 800;
+        border-radius: 10px;
+        font-size: 20px;
+        border: 2px solid transparent;
+
+    }
+
+    .codrops-demos_sidebar a {
+        /*display: inline-block;*/
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /*padding: 0.5em 1.2em;*/
+        outline: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+        border-left: 2px solid transparent;
+        font-family: Circle-Regular;
+        font-size: 1rem;
+    }
+    .codrops-demos_sidebar a:hover{
+        background-color: #636363;
+        border-left: 2px solid #ffac30;
+    }
+    .codrops-demos_sidebar{
+        font-family: 'Montserrat';
+        position: absolute;
+        top: 20%;
+        bottom: 20%;
+        padding-top: 1em;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .social-icons-burger-menu{
+        width: 70%;
+        margin-top: 20px;
+        border-top: 1px solid gray;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+
+    }
+    .social-icons-burger-menu img{
+        width: 30px;
+        height: 30px;
+    }
+    .menu_button{
+        display: flex;
+        width: 50px;
+        height: auto;
+        position: absolute;
+        left: -80px;
+        top: 45px;
+        cursor: pointer;
+    }
+    .cancel_button{
+        width: 30px;
+        height: auto;
+        position: absolute;
+        left: 25px;
+        top: 25px;
+        cursor: pointer;
+    }
+    .menu_active {
+        transform: translateX(0%);
+    }
+    .content_active {
+        transform: translateX(-100%);
+    }
+}
+@media (max-width: 525px) {
+    .back-call{
+        display: none;
+    }
+    .logo{
+        margin-left: 5%;
+    }
+}

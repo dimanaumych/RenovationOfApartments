@@ -8,7 +8,7 @@ function isVisible() {
     let topVisible = coords.top > 0 && coords.top < windowHeight;
     // нижний край элемента виден?
     let bottomVisible = coords.bottom < windowHeight && coords.bottom > 0;
-    console.log(topVisible + ' :topvisible \n' + bottomVisible + ' :bottmvisible');
+    // console.log(topVisible + ' :topvisible \n' + bottomVisible + ' :bottmvisible');
     return topVisible || bottomVisible;
 }
 let f = true;

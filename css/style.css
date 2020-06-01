@@ -1879,7 +1879,7 @@ footer .free-calculate-form-wrapper{
         width: 160%;
     }
     .header-text {
-        margin-left: 20px;
+        /*margin-left: 20px;*/
     }
 
     .content-info {
@@ -1904,6 +1904,7 @@ footer .free-calculate-form-wrapper{
 
     .header-wrapper {
         width: 768px;
+        height: 145px;
     }
 
     .contact-info  {
@@ -1912,7 +1913,7 @@ footer .free-calculate-form-wrapper{
 
     .header-content {
         width: 768px;
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
 
     .header-text {
@@ -1920,9 +1921,8 @@ footer .free-calculate-form-wrapper{
     }
 
     .header-form-wrapper {
-        width: 50%;
+        width: 45%;
         margin: 0px auto;
-        margin-top: 40px;
     }
 
     .header-bottom {
@@ -2101,10 +2101,12 @@ footer .free-calculate-form-wrapper{
 
     .header-content {
         width: 425px;
+        flex-direction: column;
     }
 
     .header-form-wrapper {
         width: 80%;
+        margin-top: 40px;
     }
 
     .info-advantages {

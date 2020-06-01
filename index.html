@@ -6,14 +6,39 @@
 	<title>Lorem Ipsum</title>
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/header.css">
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	<script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
 </head>
 <body>
 
 <header>
+    <!-- Mobile navigation -->
+<!--    <div class="left_sidebar_wrapper">-->
+    <div class="left_sidebar">
+        <a class="menu-btn" ><img src="images/burger_menu/menu.png" class="menu_button"></a>
+        <a class="cancel-btn"><img src="images/burger_menu/cancel.png" class="cancel_button"></a>
+        <nav class="codrops-demos_sidebar">
+            <a  href="index.html">Типы ремонтов</a>
+            <a class="current-demo" href="catalog.html">Калькулятор</a>
+            <a  href="news.html">Портфолио</a>
+            <a href="contact.html">Контакты</a>
+            <a  href="news.html">Портфолио</a>
+            <a href="contact.html">Контакты</a>
+            <div class="social-icons-burger-menu">
+                <a href="#"><img src="images/icons/inst.png"></a>
+                <a href="#"><img src="images/icons/fb.png"></a>
+                <a href="#"><img src="images/icons/telegram.png"></a>
+                <a href="#"><img src="images/icons/viber.png"></a>
+            </div>
+        </nav>
+
+    </div>
+<!--    </div>-->
+    <!-- Mobile navigation -->
+
     <div class="header-wrapper">
+
         <a href="index.html"><img class="logo" src="images/icons/logo.png"></a>
         <div class="contact-info">
         <a href="tel:0(800)330 332"><p>0(800)330 332</p></a>
@@ -738,13 +763,12 @@
         </div>
     </section>
 </footer>
-
+<script src="scripts/burger_menu.js"></script>
 <script src="scripts/slow_anchor.js"></script>
 <script src="scripts/portfolio.js"></script>
 <script src="scripts/numbers.js"></script>
 <script src="scripts/show_more.js"></script>
 <script src="scripts/calculator.js"></script>
-<script src="scripts/header.js"></script>
 <script src="scripts/banner_slider.js"></script>
 </body>
 </html>
