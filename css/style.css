@@ -1217,7 +1217,8 @@ header:before {
     display: none;
     color: white;
     position: absolute;
-    left: 95px;
+    font-family:Circle-Regular ;
+    left: 65px;
     top: 130px;
     width: 201px;
     height: 41px;
@@ -1815,7 +1816,7 @@ footer .free-calculate-form-wrapper{
     }
 
     .dark {
-        width: 332px;
+        width: 425px;
     }
 
     .card-image {
@@ -2197,8 +2198,9 @@ footer .free-calculate-form-wrapper{
     }
 
     .button-info{
-        left: 67px;
+        left: 110px;
     }
+    
 
     .advantages-after-photo {
         margin: 0px auto;
