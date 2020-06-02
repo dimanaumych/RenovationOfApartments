@@ -1816,7 +1816,7 @@ footer .free-calculate-form-wrapper{
     }
 
     .dark {
-        width: 425px;
+        width: 100%;
     }
 
     .card-image {
@@ -2393,6 +2393,9 @@ footer .free-calculate-form-wrapper{
 }
 
 @media (max-width: 425px){
+    .button-info{
+        left: 60px
+    }
     .cancel-portfolio{
         top: 35px;
     }
