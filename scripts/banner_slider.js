@@ -22,10 +22,12 @@ slider_button_array = ['slider-controls-one','slider-controls-two','slider-contr
         i++; if( i > N - 1){i=0};//alert(i);
 
                 $('header').css('background-image', 'url(' + backgrounds_array[i] + ')');
-
+            $('.' + slider_button_array[0] + '').css('borderBottom', '1px solid white');
+            $('.' + slider_button_array[1] + '').css('borderBottom', '1px solid white');
+            $('.' + slider_button_array[2] + '').css('borderBottom', '1px solid white');
                 $('.' + slider_button_array[i] + '').css('borderBottom', '2px solid white');
                 $('.' + slider_button_array[i - 1] + '').css('borderBottom', '1px solid white');
-                $('.' + slider_button_array[N.length - 1] + '').css('borderBottom', '1px solid white');
+
 
         timerId01=setTimeout(function(){Rotator(i)},s);return;}
         }

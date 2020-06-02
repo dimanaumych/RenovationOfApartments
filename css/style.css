@@ -1174,6 +1174,10 @@ header:before {
     transition: 2s;
 
 }
+.show-more-card{
+    display: none;
+    margin-bottom: 100px;
+}
 
 
 
