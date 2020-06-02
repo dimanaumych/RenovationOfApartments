@@ -1898,6 +1898,9 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 1024px) {
+    .show-more-card{
+    flex-direction: column;
+}
     .container-portfolio{
         width: 768px;
     }
@@ -2139,6 +2142,9 @@ footer .free-calculate-form-wrapper{
         width: 100%;
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+    .show-more-card{
+        flex-direction: column;
     }
     .card-image{
         width: 100%;
