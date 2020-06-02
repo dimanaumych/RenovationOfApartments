@@ -1,5 +1,5 @@
 $('.menu-btn').on('click', function(e) {
-    console.log('test');
+
     // e.preventDefault();
     // $('.left_sidebar').toggleClass('menu_active');
     document.querySelector('.left_sidebar').classList.toggle('menu_active')
@@ -8,7 +8,7 @@ $('.menu-btn').on('click', function(e) {
 })
 $('.cancel-btn').on('click', function(e) {
     e.preventDefault();
-    console.log('CANCEL_BUTTON');
+
     $('.left_sidebar').toggleClass('menu_active');
     $('.main_content').toggleClass('content_active');
     setTimeout(()=>{
@@ -16,3 +16,11 @@ $('.cancel-btn').on('click', function(e) {
     }, 280)
 
 });
+$('.codrops-demos_sidebar a').on('click', (e)=>{
+    e.preventDefault();
+    $('.left_sidebar').toggleClass('menu_active');
+    $('.main_content').toggleClass('content_active');
+    setTimeout(()=>{
+        $('.menu-btn').css("display","flex");
+    }, 280)
+})
