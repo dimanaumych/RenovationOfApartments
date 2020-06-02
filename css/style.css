@@ -1177,7 +1177,6 @@ header:before {
 .show-more-card{
     display: none;
     margin-bottom: 100px;
-    width: 100%;
 }
 
 
@@ -1218,7 +1217,8 @@ header:before {
     display: none;
     color: white;
     position: absolute;
-    left: 95px;
+    font-family:Circle-Regular ;
+    left: 65px;
     top: 130px;
     width: 201px;
     height: 41px;
@@ -1816,7 +1816,7 @@ footer .free-calculate-form-wrapper{
     }
 
     .dark {
-        width: 100%;
+        width: 425px;
     }
 
     .card-image {
@@ -1900,7 +1900,6 @@ footer .free-calculate-form-wrapper{
 
 @media(max-width: 1024px) {
     .show-more-card{
-
     flex-direction: column;
 }
     .container-portfolio{
@@ -2199,8 +2198,9 @@ footer .free-calculate-form-wrapper{
     }
 
     .button-info{
-        left: 120px;
+        left: 110px;
     }
+    
 
     .advantages-after-photo {
         margin: 0px auto;
@@ -2393,11 +2393,6 @@ footer .free-calculate-form-wrapper{
 }
 
 @media (max-width: 425px){
-
-    .button-info{
-        left: 60px;
-    }
-
     .cancel-portfolio{
         top: 35px;
     }
