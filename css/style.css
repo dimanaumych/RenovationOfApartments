@@ -514,6 +514,7 @@ header:before {
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 50px;
+    height: 650px;
 }
 .remont-types-block-wrapper-two{
     width: 30%;
@@ -525,6 +526,7 @@ header:before {
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 50px;
+    height: 650px;
 }
 .remont-types-block-wrapper-three{
     width: 30%;
@@ -536,6 +538,7 @@ header:before {
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 50px;
+    height: 650px;
 }
 .remont-types-block-wrapper-one:hover{
     box-shadow: 0px 0px 10px 1px #9d7432;
@@ -583,7 +586,7 @@ header:before {
     z-index: 2;
 }
 
-.remont-types-block{
+.remont-types-block-one{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -592,6 +595,29 @@ header:before {
     align-items: center;
     text-align: center;
     padding: 25px;
+    height: auto;
+}
+.remont-types-block-two{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    height: auto;
+}
+.remont-types-block-three{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    height: auto;
 }
 .remont-types-block-header{
     font-family: Circle-bold;
@@ -1175,8 +1201,10 @@ header:before {
 
 }
 .show-more-card{
+    width: 100%;
     display: none;
     margin-bottom: 100px;
+    justify-content: space-around;
 }
 
 
