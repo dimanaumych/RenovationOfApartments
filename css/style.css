@@ -1339,7 +1339,7 @@ header:before {
     cursor: pointer;
 }
 .portfolio-card-title-wrapper{
-    width: 35%;
+    width: 40%;
     background-color: #303030;
     display: flex;
     margin-top: 30px;
@@ -1433,6 +1433,7 @@ header:before {
     font-family: EuropeExt-Bold;
     font-size: 1.3rem;
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 .portfolio-card-info-info p{
     margin: 15px;
