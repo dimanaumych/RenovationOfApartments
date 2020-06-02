@@ -1720,12 +1720,12 @@ footer .free-calculate-form-wrapper{
     cursor: pointer;
     font-size: 17px;
     width: 251px;
-    height: 16px;
+    /*height: 16px;*/
     border: 1px solid #DA9633;
     color:#DA9633;
-    padding-top: 18px;
-    padding-bottom: 17px;
-    font-family:CirceBold-Bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family:Circle-bold;
     margin-bottom: 22px;
 }
 
