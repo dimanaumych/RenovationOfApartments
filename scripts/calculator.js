@@ -14,23 +14,23 @@ room_size_button.addEventListener('click',function(){
     result_deadline = 0;
     for (var i = 0; i < building_type.length; i++) {
         if (building_type[i].checked) {
-            console.log(building_type[i].value);
+            // console.log(building_type[i].value);
             break;
         }
     }
     for (var x = 0; x < remont_type.length; x++) {
         if (remont_type[x].checked) {
-            console.log(remont_type[x].value);
+            // console.log(remont_type[x].value);
             break;
         }
     }
     for (var y = 0; y < rooms_type.length; y++) {
         if (rooms_type[y].checked) {
-            console.log(rooms_type[y].value);
+            // console.log(rooms_type[y].value);
             break;
         }
     }
-    console.log(room_size.value);
+    // console.log(room_size.value);
 
     // ONLY NUMBERS
     $('.room-size-input').on('keyup', function(){
