@@ -2177,6 +2177,9 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 768px) {
+    .header-text-title{
+        font-size: 1.6rem;
+    }
     .card{
         width: 100%;
         margin-top: 15px;
