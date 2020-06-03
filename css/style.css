@@ -1766,8 +1766,13 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 1440px) {
-    #portfolio-card-wrapper-1{
-        width: 1024px;
+    #portfolio-card-wrapper-1, #portfolio-card-wrapper-2,
+    #portfolio-card-wrapper-3, #portfolio-card-wrapper-4,
+    #portfolio-card-wrapper-5, #portfolio-card-wrapper-6,
+    #portfolio-card-wrapper-7, #portfolio-card-wrapper-8
+    #portfolio-card-wrapper-9, #portfolio-card-wrapper-10,
+    #portfolio-card-wrapper-11, #portfolio-card-wrapper-12{
+        /*width: 1024px;*/
         position: absolute;
         background-color: white;
         box-shadow: 0px 0px 10px 1px gray;
@@ -1778,132 +1783,10 @@ footer .free-calculate-form-wrapper{
         margin-top: 50px;
 
     }
-    #portfolio-card-wrapper-2{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-    }
-    #portfolio-card-wrapper-3{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-    }
-    #portfolio-card-wrapper-4{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-    }
-    #portfolio-card-wrapper-5{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-    }
-    #portfolio-card-wrapper-6{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-    }
-    #portfolio-card-wrapper-7{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-    }
-    #portfolio-card-wrapper-8{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-    }
-    #portfolio-card-wrapper-9{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-    }
-    #portfolio-card-wrapper-10{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-    }
-    #portfolio-card-wrapper-11{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
-
-    }
-    .slider-count-one, .slider-count-two, .slider-count-three{
+   .slider-count-one, .slider-count-two, .slider-count-three{
         border-bottom: 1px solid black;
     }
-    #portfolio-card-wrapper-11{
-        width: 1024px;
-        position: absolute;
-        background-color: white;
-        box-shadow: 0px 0px 10px 1px gray;
-        z-index: 5;
-        display: none;
-        flex-direction: column;
-        height: auto;
-        margin-top: 50px;
 
-    }
     .container-advantages {
         max-width: 1024px;
     }
