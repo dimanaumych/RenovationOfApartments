@@ -1246,7 +1246,7 @@ header:before {
     color: white;
     position: absolute;
     font-family:Circle-Regular ;
-    left: 65px;
+    left: 100px;
     top: 130px;
     width: 201px;
     height: 41px;
@@ -1766,6 +1766,9 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 1440px) {
+    .button-info{
+        left: 65px;
+    }
     #portfolio-card-wrapper-1, #portfolio-card-wrapper-2,
     #portfolio-card-wrapper-3, #portfolio-card-wrapper-4,
     #portfolio-card-wrapper-5, #portfolio-card-wrapper-6,
@@ -1861,6 +1864,7 @@ footer .free-calculate-form-wrapper{
         width: 332px;
     }
 
+
     .container-content-steps {
         max-width: 1024px;
     }
@@ -1937,6 +1941,42 @@ footer .free-calculate-form-wrapper{
 }
 
 @media(max-width: 1024px) {
+    .remont-types-block-wrapper-one{
+        width: 30%;
+        background-image: url('../images/галлерея/gostinnaya.jpg');
+        background-color: darkgray;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        height: 800px;
+    }
+    .remont-types-block-wrapper-two{
+        width: 30%;
+        background-image: url('../images/галлерея/gostinnaya-2.jpg');
+        background-color: darkgray;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        height: 800px;
+    }
+    .remont-types-block-wrapper-three{
+        width: 30%;
+        background-image: url('../images/галлерея/gostinnaya-3.jpg');
+        background-color: darkgray;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        height: 800px;
+    }
     .show-more-card{
     flex-direction: column;
 }
